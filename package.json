@@ -1,21 +1,15 @@
 {
   "name": "component-events",
+  "description": "Higher level dom event management",
   "version": "1.0.6",
+  "keywords": [
+    "event",
+    "events",
+    "subscriptions"
+  ],
   "dependencies": {
-    "component-event": "0.1.3",
-    "component-delegate": "0.2.1"
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git"
   },
-  "component": {
-    "scripts": {
-      "events/index.js": "index.js"
-    }
-  },
-  "browser": {
-    "delegate": "component-delegate",
-    "event": "component-event"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/events.git"
-  }
+  "license": "MIT"
 }
